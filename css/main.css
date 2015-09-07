@@ -151,6 +151,19 @@ a.imageLink:hover{
   background-color: transparent;
 }
 
+/* ------------------------ LISTS ------------------------ */
+
+ul {
+  display: inline-block
+  list-style-type: none;
+  padding: .1em;
+  margin: .1em;
+}
+
+ul li{
+  display: inline-block
+}
+
 /* ------------------------ LAYOUT ------------------------ */
 
 div {
