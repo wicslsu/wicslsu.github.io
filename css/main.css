@@ -1,5 +1,206 @@
+/* ------------------------ GENERAL ------------------------ */
+
 body{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   margin: 0;
+}
+
+/* ------------------------ HEADERS ------------------------ */
+
+h1 {
+  text-align: center;
+  vertical-align: 150px;
+  font-size: 5em;
+  text-shadow: 3px 3px rgba(0,0,0, 0.5);
+  color: #FFF;
+}
+
+h2 {
+  text-align: center;
+  vertical-align: 100px;
+  font-size: 3em;
+  text-shadow: 2px 2px rgba(0,0,0, 0.5);
+  color: #000;
+  margin-top: .3em;
+  margin-bottom: .6em;
+  text-transform: uppercase;
+  font-style: bold;
+}
+
+h3 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-style: bold;
+}
+
+h4 {
+  font-size: 1.2em;
+  font-weight: bold;
+  display: inline;
+}
+
+/* ------------------------ LINKS/BUTTONS ------------------------ */
+
+a{
+  font-weight: bold;
+  color: #5C5C5C;
+}
+
+a:visited{
+  color: #808080;
+}
+
+a:hover{
+  transition-property: color, background-color, text-decoration;
+  transition-duration: 0.4s;
+  color: #FFF;
+  background-color: #5C5C5C;
+  text-decoration: none;
+}
+
+a.button {
+  font-weight: 300;
+  border: .3em solid white;
+  color: #FFF;
+  background-color: rgba(0,0,0, 0.5);
+  padding: .5em;
+  margin: auto;
+  height: 10em;
+  text-transform: uppercase;
+  font-size: 1.7em;
+  text-decoration: none;
+}
+
+a.button:visited{
+  color: #FFF;	
+}
+
+a.button:hover {
+  background-color: #FFF;
+  color: rgba(0,0,0, 0.5);
+  transition-property: color, background-color;
+  transition-duration: 0.4s;
+}
+
+a.smallButton{
+  font-weight: 300;
+  border: .1em solid white;
+  color: #FFF;
+  background-color: rgba(0,0,0, 0.5);
+  padding: .2em;
+  margin: auto;
+  height: 5em;
+  text-transform: uppercase;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+a.smallButton:visited{
+  color: #FFF;
+}
+
+a.smallButton:hover{
+  background-color: #FFF;
+  color: rgba(0,0,0, 0.5);
+  transition-property: color, background-color;
+  transition-duration: 0.4s;
+}
+
+a.footerNavArrow{
+  font-size: 1em;
+  font-weight: 350;
+  color: #E6E6E6;
+  text-decoration: none;
+}
+
+a.footerNavArrow:hover{
+  color: #FFF;
+  transition-property: color, background-color;
+  transition-duration: 0.4s;
+}
+
+/* ------------------------ IMAGES ------------------------ */
+
+img.icon {
+  width: 300px;
+  border: .2em solid white;
+  color: #FFF;
+  opacity: .5;
+  background-color: transparent;
+}
+
+img.icon:hover{
+  transition: .3s ease-in-out;
+  opacity: 1;
+  background-color: transparent;
+}
+
+a.imageLink{
+  background-color: transparent;
+}
+
+a.imageLink:hover{
+  background-color: transparent;
+}
+
+/* ------------------------ LAYOUT ------------------------ */
+
+div {
+  max-width: 100%;
+  height: auto; 
+  margin: 0px;
+  padding: 2% 2%;
+  background-color: #E6E6E6;
+}
+
+div.content{
+  width: 50%;
+  z-index: 1;
+  height: auto;
+  margin: auto;
+  text-align: left;
+  background-color: transparent;
+}
+
+div.titleSection {
+  height: 50vw; /*must be <= ratio of width/height of background image*/
+  background-image: url("http://i.imgur.com/11hixgl.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+div.aboutContent{
+  width: auto;
+  z-index: 1;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  background-color: transparent;
+}
+
+div.aboutItem{
+  width: 400px;
+  margin: auto;
+  padding: .5% .5%;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: transparent;
+}
+
+div.footer {
+  max-width: 100%;
+  color: #E6E6E6;
+  background-color: #000;
+  text-align: center;
+}
+
+div.navArrow{
+  width: 50%;
+  z-index: 1;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  padding: 0px;
+  background-color: transparent;
 }
