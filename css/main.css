@@ -154,7 +154,7 @@ a.imageLink:hover{
 /* ------------------------ LISTS ------------------------ */
 
 ul {
-  display: inline-block
+  display: inline-block;
   list-style-type: none;
   padding: .1em;
   margin: .1em;
