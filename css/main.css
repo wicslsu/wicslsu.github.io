@@ -133,13 +133,13 @@ a.footerNavArrow:hover{
 img.icon {
   border: .2em solid white;
   color: #FFF;
-  opacity: .5;
+  opacity: 1;
   background-color: transparent;
 }
 
 img.icon:hover{
   transition: .3s ease-in-out;
-  opacity: 1;
+  opacity: .5;
   background-color: transparent;
 }
 
