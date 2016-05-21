@@ -150,10 +150,7 @@ a.imageLink{
 a.imageLink:hover{
   background-color: transparent;
 }
-div.pictures{
-  position: absolute;
-  top: 80px;
-}
+
 
 /* ------------------------ LISTS ------------------------ */
 
