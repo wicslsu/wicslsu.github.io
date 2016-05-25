@@ -219,9 +219,9 @@ div.aboutItem{
 }
 
 div.footer {
+  background-image: url("http://i.imgur.com/UNqKNtP.png");
   max-width: 100%;
   color: #E6E6E6;
-  background-color: ffd758;
   text-align: center;
 }
 
