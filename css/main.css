@@ -193,7 +193,7 @@ div.content{
 }
 
 div.titleSection {
-  min-height: 45vw; /*must be <= ratio of width/height of background image*/
+  /*min-height: 45vw; /*must be <= ratio of width/height of background image*/ */
   background-image: url("oldBanner.png");
   background-repeat: no-repeat;
   background-color: transparent;
