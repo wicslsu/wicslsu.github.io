@@ -194,7 +194,7 @@ div.content{
 
 div.titleSection {
   min-height: 45vw; /*must be <= ratio of width/height of background image*/ 
-  background-image: url("http://i.imgur.com/hHhRURe.png");
+  background-image: url("http://i.imgur.com/8DZX5Ot.png");
   background-repeat: no-repeat;
   background-color: transparent;
 }
@@ -219,7 +219,7 @@ div.aboutItem{
 }
 
 div.footer {
-  background-image: url("http://i.imgur.com/hHhRURe.png");
+  background-image: url("http://i.imgur.com/8DZX5Ot.png");
   max-width: 100%;
   color: #E6E6E6;
   text-align: center;
