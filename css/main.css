@@ -3,7 +3,8 @@
 body{
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 /* ------------------------ HEADERS ------------------------ */
@@ -212,6 +213,7 @@ div.footer {
   background-color: #EC8894;
   color: #161E4F;
   text-align: center;
+  padding: none;
 }
 
 div.titleSection {
@@ -247,6 +249,8 @@ div.footer {
   background-color: #EC8894;
   color: #161E4F;
   text-align: center;
+  padding: 0px;
+  margin: 0px;
 }
 
 div.navArrow{
