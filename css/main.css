@@ -130,7 +130,7 @@ a.footerNavArrow:hover{
 
 /* ------------------------ IMAGES ------------------------ */
 
-img.icon {
+/*img.icon {
   border: .2em solid white;
   color: #FFF;
   opacity: 1;
@@ -141,7 +141,7 @@ img.icon:hover{
   transition: .3s ease-in-out;
   opacity: .5;
   background-color: transparent;
-}
+}*/
 
 a.imageLink{
   background-color: transparent;
