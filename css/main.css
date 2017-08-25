@@ -206,11 +206,19 @@ div.content{
   background-color: transparent;
 }
 
+
+div.footer {
+  background-color: #EC8894;
+  color: #161E4F;
+  text-align: center;
+}
+
 div.titleSection {
   min-height: 45vw; /*must be <= ratio of width/height of background image*/ 
   background-image: url("https://postimg.org/image/5syw62n51/");
   background-repeat: no-repeat;
   background-color: transparent;
+  background-color: #79D6BA;
 }
 
 div.aboutContent{
