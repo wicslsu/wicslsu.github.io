@@ -214,7 +214,7 @@ div.footer {
 }
 
 div.titleSection {
-  min-height: 45vw; /*must be <= ratio of width/height of background image*/ 
+  /*min-height: 45vw; /*must be <= ratio of width/height of background image*/ 
   background-image: url("https://postimg.org/image/5syw62n51/");
   background-repeat: no-repeat;
   background-color: transparent;
