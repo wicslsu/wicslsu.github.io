@@ -116,9 +116,16 @@ a.smallButton:hover{
 }
 
 a.connectButton{
-  height: 50;
-  width: 50;
+  height: 20;
+  width: 20;
   border: "0";
+}
+
+a.connectButton:hover{
+  background-color: #FFF;
+  color: rgba(0,0,0, 0.5);
+  transition-property: color, background-color;
+  transition-duration: 0.4s;
 }
 
 a.footerNavArrow{
@@ -130,8 +137,9 @@ a.footerNavArrow{
 
 a.footerNavArrow:hover{
   color: #FFF;
-  transition-property: color, background-color;
+  /*transition-property: color, background-color;
   transition-duration: 0.4s;
+  this slowly transition to grey background white letters*/
 }
 
 /* ------------------------ IMAGES ------------------------ */
