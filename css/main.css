@@ -115,10 +115,11 @@ a.smallButton:hover{
   transition-duration: 0.4s;
 }
 
-img.connectButton{
+.connectButton{
   height: 20px;
   width: 20px;
-  border: "0";
+  padding: .5% .5%;
+  border: 0;
 }
 
 a.connectButton:hover{
