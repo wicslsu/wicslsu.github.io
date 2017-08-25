@@ -192,14 +192,6 @@ div.content{
   background-color: transparent;
 }
 
-div.connectButton {
-  border: "0";
-  height: 50px;
-  width: 50px;
-  text-align: center;
-  background-color: transparent;
-}
-
 div.titleSection {
   min-height: 45vw; /*must be <= ratio of width/height of background image*/ 
   background-image: url("https://postimg.org/image/5syw62n51/");
