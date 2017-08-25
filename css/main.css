@@ -196,7 +196,6 @@ div.connectButton {
   border: "0";
   height: 50px;
   width: 50px;
-  z-index: 1;
   text-align: center;
   background-color: transparent;
 }
