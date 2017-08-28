@@ -14,7 +14,7 @@ h1 {
   vertical-align: 25em;
   font-size: 5em;
   text-shadow: 3px 3px rgba(0,0,0, 0.5);
-  color: #000;
+  color: #FFF;
   margin-bottom: .1em;
 }
 
@@ -22,7 +22,7 @@ h1 {
   text-align: center;
   font-size: 3em;
   text-shadow: 3px 3px rgba(0,0,0, 0.5);
-  color: #000;
+  color: #FFF;
 }
 
 h2 {
@@ -92,30 +92,6 @@ a.button:hover {
   transition-property: color, background-color;
   transition-duration: 0.4s;
 }
-
-/*a.smallButton{
-  font-weight: 300;
-  border: .1em solid white;
-  color: #FFF;
-  background-color: rgba(0,0,0, 0.5);
-  padding: .2em;
-  margin: auto;
-  height: 5em;
-  text-transform: uppercase;
-  font-size: 1em;
-  text-decoration: none;
-}
-
-a.smallButton:visited{
-  color: #FFF;
-}
-
-a.smallButton:hover{
-  background-color: #FFF;
-  color: rgba(0,0,0, 0.5);
-  transition-property: color, background-color;
-  transition-duration: 0.4s;
-}*/
 
 .connectButton{
   height: 100px;
@@ -219,7 +195,7 @@ div.footer {
 }
 
 div.titleSection {
-  /*min-height: 45vw; /*must be <= ratio of width/height of background image*/ 
+  min-height: 45vw; /*must be <= ratio of width/height of background image*/ 
   background-image: url("../pictures/background.png"); 
   background-repeat: no-repeat;
 }
