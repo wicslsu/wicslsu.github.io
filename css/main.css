@@ -248,6 +248,10 @@ div.aboutItem{
   background-color: #EC8894;
   color: #161E4F;
   text-align: center;
+  max-width: 100%;
+  height: auto; 
+  margin: 0px;
+  padding: 2% 2%;
 }
 
 div.navArrow{
