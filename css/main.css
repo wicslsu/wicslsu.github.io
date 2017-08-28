@@ -47,6 +47,7 @@ h4 {
   font-size: 1.2em;
   font-weight: bold;
   display: inline;
+  text-align: center;
 }
 
 /* ------------------------ LINKS/BUTTONS ------------------------ */
@@ -124,7 +125,7 @@ a.smallButton:hover{
   margin:10px 25px;
 }
 
-a.connectButton:hover{
+.connectButton:hover{
   background-color: #FFF;
   color: rgba(0,0,0, 0.5);
   transition-property: color, background-color;
