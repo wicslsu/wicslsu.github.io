@@ -245,14 +245,14 @@ div.aboutItem{
   background-color: transparent;
 }
 
-div.footer {
+#footer {
   background-image: url("https://postimg.org/image/5syw62n51/");
   max-width: 100%;
   background-color: #EC8894;
   color: #161E4F;
   text-align: center;
-  padding: 0px;
-  margin: 0px;
+  position: absolute;
+  bottom:0;
 }
 
 div.navArrow{
