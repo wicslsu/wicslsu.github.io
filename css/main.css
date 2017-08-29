@@ -119,9 +119,9 @@ a.footerNavArrow{
 
 a.footerNavArrow:hover{
   color: #FFF;
-  /*transition-property: color, background-color;
+  transition-property: color, background-color;
   transition-duration: 0.4s;
-  this slowly transition to grey background white letters*/
+  /*this slowly transition to grey background white letters*/
 }
 
 /* ------------------------ IMAGES ------------------------ */
