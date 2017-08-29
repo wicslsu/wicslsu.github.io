@@ -103,12 +103,12 @@ a.button:hover {
   margin:5px 10px;
 }
 
-.connectButton:hover{
+/*.connectButton:hover{
   background-color: #FFF;
   color: rgba(0,0,0, 0.5);
   transition-property: color, background-color;
   transition-duration: 0.4s;
-}
+}*/
 
 a.footerNavArrow{
   font-size: 1em;
