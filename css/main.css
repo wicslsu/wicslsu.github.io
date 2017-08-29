@@ -41,6 +41,7 @@ h3 {
   font-size: 1.5em;
   text-transform: uppercase;
   font-style: bold;
+  text-align: center;
 }
 
 h4 {
@@ -191,13 +192,13 @@ div.footer {
   background-color: #EC8894;
   color: #161E4F;
   text-align: center;
-  padding: none;
 }
 
 div.titleSection {
   min-height: 45vw; /*must be <= ratio of width/height of background image*/ 
   background-image: url("../pictures/background.png"); 
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 div.aboutContent{
