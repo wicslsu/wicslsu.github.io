@@ -135,7 +135,7 @@ ul li{
   display: inline-block
 }
 
-#wicslogo{
+img.wicslogo{
   margin-right:"20px";
   margin-bottom:"20 px";
   border:"0";
@@ -180,7 +180,7 @@ div.footer {
 
 div.titleSection {
   min-height: 45vw; /*must be <= ratio of width/height of background image*/
-  background-image: url("../banners/banner2017.png");
+  background-image: url("../pictures/background.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
