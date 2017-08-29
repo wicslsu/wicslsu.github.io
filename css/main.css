@@ -100,15 +100,13 @@ a.button:hover {
   width: 50px;
   border: 0; 
   text-align:center;
+  color: #E6E6E6;
   margin:5px 10px;
 }
 
-/*.connectButton:hover{
-  background-color: #FFF;
-  color: rgba(0,0,0, 0.5);
-  transition-property: color, background-color;
-  transition-duration: 0.4s;
-}*/
+.connectButton:hover{
+  background-color: #E6E6E6;
+}
 
 a.footerNavArrow{
   font-size: 1em;
@@ -123,17 +121,6 @@ a.footerNavArrow:hover{
   transition-duration: 0.4s;
   /*this slowly transition to grey background white letters*/
 }
-
-/* ------------------------ IMAGES ------------------------ */
-
-/*a.imageLink{
-  background-color: transparent;
-}
-
-a.imageLink:hover{
-  background-color: transparent;
-}*/
-
 
 /* ------------------------ LISTS ------------------------ */
 
