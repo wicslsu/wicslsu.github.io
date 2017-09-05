@@ -126,6 +126,53 @@ a.footerNavArrow:hover{
   /*this slowly transition to grey background white letters*/
 }
 
+body, html {
+    height: 100%;
+}
+
+.parallax {
+  background-image: url('../pictures/volunteers.jpg');
+
+  height: 40%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallaxParticipants {
+    background-image: url('../pictures/participants.jpg');
+
+    height: 40%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxVolunteers {
+  background-image: url('../pictures/volunteers.jpg');
+
+  height: 25%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .parallaxParticipants {
+        background-attachment: scroll;
+    }
+
+    .parallaxVolunteers{
+      background-attachment: scroll;
+    }
+}
+
 /* ------------------------ LISTS ------------------------ */
 
 ul {
