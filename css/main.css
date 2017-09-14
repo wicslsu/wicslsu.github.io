@@ -25,6 +25,10 @@ h1 {
   color: #FFF;
 }
 
+.imgContainer{
+    float:left;
+}
+
 h2 {
   text-align: center;
   vertical-align: 100px;
@@ -104,12 +108,12 @@ a.button:hover {
   width: 50px;
   border: 0;
   text-align:center;
-  color: #E6E6E6;
+  color: #e4ecea;
   margin:5px 10px;
 }
 
 .connectButton:hover{
-  background-color: #E6E6E6;
+  background-color: #e4ecea;
 }
 
 a.footerNavArrow{
@@ -130,21 +134,10 @@ body, html {
     height: 100%;
 }
 
-.parallax {
-  background-image: url('../pictures/volunteers.jpg');
-
-  height: 40%;
-
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .parallaxParticipants {
     background-image: url('../pictures/participants.jpg');
 
-    height: 40%;
+    height: 50%;
 
     background-attachment: fixed;
     background-position: center;
@@ -155,7 +148,7 @@ body, html {
 .parallaxVolunteers {
   background-image: url('../pictures/volunteers.jpg');
 
-  height: 25%;
+  height: 50%;
 
   background-attachment: fixed;
   background-position: center;
@@ -175,14 +168,14 @@ body, html {
 
 /* ------------------------ LISTS ------------------------ */
 
-ul {
+ol {
   display: inline-block;
   list-style-type: none;
   padding: .1em;
   margin: .1em;
 }
 
-ul li{
+ol li{
   display: inline-block
 }
 
@@ -193,7 +186,7 @@ div {
   height: auto;
   margin: 0px;
   padding: 2% 2%;
-  background-color: #E6E6E6;
+  background-color: #e4ecea;
 }
 
 div.navHeader{
